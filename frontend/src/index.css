@@ -1,0 +1,2218 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@font-face {
+  font-family:"absans";
+  src: url('./assets/Absans-Regular.ttf');
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+html,
+body,#root{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+body{
+  overflow-x: hidden;
+}
+.pc h1{
+  font-family: absans;
+  font-weight: 900;
+}
+#collabsid h1{
+  font-family: absans;
+  font-weight: 700;
+}
+
+.a{
+  display:block;
+  position:relative;
+  width:100%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.a:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/temerario/temerario/over/overview.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.b{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.b:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/temerario/temerario/s/s1.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.c{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.c:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/temerario/temerario/s/s2.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.d{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.d:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/temerario/temerario/s/s3.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.e{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.e:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://screenguardian.in/wp-content/uploads/2024/08/LAMBORGHINI-TEMERARIO-interior.png');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.f{
+  display:block;
+  position:relative;
+  width:55%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.f:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/temerario/temerario/centrostile/sketch1.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.ra{
+  display:block;
+  position:relative;
+  width:100%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.ra:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/revuelto/2024/09_18_refresh/img-left.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.rb{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.rb:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/revuelto/2024/09_18_refresh/s1.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.rc{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.rc:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/revuelto/2024/09_18_refresh/s2.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.rd{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.rd:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/revuelto/2024/09_18_refresh/s3.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.re{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.re:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://screenguardian.in/wp-content/uploads/2024/08/LAMBORGHINI-TEMERARIO-interior.png');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.rf{
+  display:block;
+  position:relative;
+  width:55%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.rf:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/revuelto/centro_stile/revuelto_centro_stile_01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.usea{
+  display:block;
+  position:relative;
+  width:100%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.usea:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/urus_se/new/overview_d.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.useb{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.useb:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/urus_se/s/image_s_1.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.usec{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.usec:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/urus_se/s/image_s_2.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.used{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.used:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/urus_se/s/image_s_3.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.usee{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.usee:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://screenguardian.in/wp-content/uploads/2024/08/LAMBORGHINI-TEMERARIO-interior.png');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.usef{
+  display:block;
+  position:relative;
+  width:55%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.usef:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/urus_se/centro_stile/Rectangle%2081.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.usa{
+  display:block;
+  position:relative;
+  width:100%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.usa:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/s/2024/09_18_refresh/img-left.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.usb{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.usb:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/s/2024/09_18_refresh/s1.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.usc{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.usc:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/s/2024/09_18_refresh/s2.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.usd{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.usd:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/s/2024/09_18_refresh/s3.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.use{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.use:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://screenguardian.in/wp-content/uploads/2024/08/LAMBORGHINI-TEMERARIO-interior.png');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.usf{
+  display:block;
+  position:relative;
+  width:55%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.usf:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/urus/urus_s/centro_stile/cs_1.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.upa{
+  display:block;
+  position:relative;
+  width:100%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.upa:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/performante/2023/10_18_refresh/over/urus_perf_over_01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.upb{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.upb:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/performante/2023/10_18_refresh/s/urus_perf_s_01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.upc{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.upc:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/performante/2023/10_18_refresh/s/urus_perf_s_02.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.upd{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.upd:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/performante/2023/10_18_refresh/s/urus_perf_s_03.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.upe{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.upe:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://screenguardian.in/wp-content/uploads/2024/08/LAMBORGHINI-TEMERARIO-interior.png');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.upf{
+  display:block;
+  position:relative;
+  width:55%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.upf:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/performante/2022/centro_stile/urus_perfo_centrostile_06.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.hsa{
+  display:block;
+  position:relative;
+  width:100%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hsa:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sterrato/gallery/2023/over_new.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.hsb{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hsb:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sterrato/gallery/2023/ext_1_1.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.hsc{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hsc:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sterrato/s/2023/ex2.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.hsd{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hsd:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sterrato/s/2023/int1.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.hse{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hse:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://screenguardian.in/wp-content/uploads/2024/08/LAMBORGHINI-TEMERARIO-interior.png');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.hsf{
+  display:block;
+  position:relative;
+  width:55%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hsf:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sterrato/centro_stile/huracan_sterrato_centro_stile_05.jpeg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.hta{
+  display:block;
+  position:relative;
+  width:100%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hta:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2023/11_06_refresh/over/overview_desktop.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.htb{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.htb:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2023/11_06_refresh/s/ext_01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.htc{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.htc:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2023/11_06_refresh/s/ext_02.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.htd{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.htd:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2023/11_06_refresh/s/int_01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.hte{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hte:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://screenguardian.in/wp-content/uploads/2024/08/LAMBORGHINI-TEMERARIO-interior.png');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.htf{
+  display:block;
+  position:relative;
+  width:55%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.htf:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/centro_stile/hura_tecnica_centro_stile_01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.hsta{
+  display:block;
+  position:relative;
+  width:100%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hsta:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sto/2023/10_18_refresh/over/hura_sto_over_01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.hstb{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hstb:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sto/2023/10_18_refresh/s/hura_sto_s_01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.hstc{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hstc:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sto/2023/10_18_refresh/s/hura_sto_s_02.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.hstd{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hstd:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sto/2023/10_18_refresh/s/hura_sto_s_03.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.hste{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hste:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://screenguardian.in/wp-content/uploads/2024/08/LAMBORGHINI-TEMERARIO-interior.png');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.hstf{
+  display:block;
+  position:relative;
+  width:55%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hstf:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sto/centro_stile/huracan_sto_centro_stile.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.hesa{
+  display:block;
+  position:relative;
+  width:100%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hesa:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_spyder/2023/11_27_refresh/over/hura_evo_spy_over_01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.hesb{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hesb:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_spyder/2023/11_27_refresh/s/hura_evo_spy_s_01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.hesc{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hesc:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_spyder/2023/11_27_refresh/s/hura_evo_spy_s_02.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.hesd{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hesd:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_spyder/2022/10_06/s/hura_evo_spy_s_03.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.hese{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hese:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://screenguardian.in/wp-content/uploads/2024/08/LAMBORGHINI-TEMERARIO-interior.png');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.hesf{
+  display:block;
+  position:relative;
+  width:55%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.hesf:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/evo_spyder/centro_stile/01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.cla{
+  display:block;
+  position:relative;
+  width:100%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.cla:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/countach/2023/10_02_refresh/over/countach_over_01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.clb{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.clb:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/countach/2023/10_02_refresh/s/countach_s_01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.clc{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.clc:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/countach/2023/10_02_refresh/s/countach_s_02.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.cld{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.cld:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/countach/2023/10_02_refresh/s/countach_s_03.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.cle{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.cle:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://screenguardian.in/wp-content/uploads/2024/08/LAMBORGHINI-TEMERARIO-interior.png');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.clf{
+  display:block;
+  position:relative;
+  width:55%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.clf:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/countach/centro_stile/01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.sfa{
+  display:block;
+  position:relative;
+  width:100%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.sfa:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian-fkp-37/2023/over_d.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.sfb{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.sfb:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian-fkp-37/2023/img_s_1.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.sfc{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.sfc:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian-fkp-37/2023/img_s_2.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.sfd{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.sfd:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian-fkp-37/s/Lamborghini-SIAN_FKP_37-s-3.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.sfe{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.sfe:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://screenguardian.in/wp-content/uploads/2024/08/LAMBORGHINI-TEMERARIO-interior.png');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.sff{
+  display:block;
+  position:relative;
+  width:55%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.sff:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian-fkp-37/feel_the_engine/sian_fkp37_centro_stile.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.sra{
+  display:block;
+  position:relative;
+  width:100%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.sra:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/model/sian_rds_refresh_2023/overview_desk_2.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.srb{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.srb:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/model/sian_rds_refresh_2023/s1_0.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.src{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.src:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/model/sian_rds_refresh_2023/s2_0.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.srd{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.srd:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/model/sian_rds_refresh_2023/s3_0.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.sre{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.sre:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/model/sian_rds_refresh_2023/s4_0.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.srf{
+  display:block;
+  position:relative;
+  width:55%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.srf:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian_rds/centro_stile/sian_rds.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.tma{
+  display:block;
+  position:relative;
+  width:100%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.tma:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/terzo-millennio/overview/Terzo-Millennio_01-overview.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.tmb{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.tmb:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/terzo-millennio/s/Lamborghini-Terzo-Millennio-s-1.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.tmc{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.tmc:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/terzo-millennio/s/Lamborghini-Terzo-Millennio-s-2.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.tmd{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.tmd:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/terzo-millennio/s/Lamborghini-Terzo-Millennio-s-3.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.tme{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.tme:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/terzo-millennio/s/Lamborghini-Terzo-Millennio-s-4.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.tmf{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.tmf:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/terzo-millennio/s/Lamborghini-Terzo-Millennio-s-5.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.tmg{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.tmg:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/terzo-millennio/s/Lamborghini-Terzo-Millennio-s-6.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.tmh{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.tmh:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/terzo-millennio/s/Lamborghini-Terzo-Millennio-s-7.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.tmi{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.tmi:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/terzo-millennio/s/Lamborghini-Terzo-Millennio-s-8.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.asa{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.asa:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/asterion/s/Lamborghini-Asterion-s-1.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.asb{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.asb:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/asterion/s/Lamborghini-Asterion-s-2.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.asc{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.asc:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/asterion/s/Lamborghini-Asterion-s-3.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.asd{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.asd:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/asterion/s/Lamborghini-Asterion-s-4.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.esa{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.esa:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/estoque/s/Lamborghini-Estoque-s-1.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.esb{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.esb:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/estoque/s/Lamborghini-Estoque-s-2.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.esc{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.esc:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/estoque/s/Lamborghini-Estoque-s-3.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.esd{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.esd:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/estoque/s/Lamborghini-Estoque-s-4.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.ma{
+  display:block;
+  position:relative;
+  width:100%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.ma:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2024/08_16_temerario/over/temerario.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.mb{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.mb:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2023/03_29_revuelto/gate_models_s_01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.mc{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.mc:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2023/03_29_revuelto/gate_models_s_02.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.md{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.md:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2024/08_16_temerario/s/s3.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.me{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.me:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2024/08_16_temerario/s/s4.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.mf{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.mf:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/gateway-models/countach/countach_01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.mg{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.mg:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/gateway-models/countach/rds_02_0.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.mh{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.mh:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/images-s/S2_502326.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.mi{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.mi:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/images-s/asterion.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.mj{
+  display:block;
+  position:relative;
+  width:55%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.mj:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2024/08_16_temerario/over/huracan.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.oa{
+  display:block;
+  position:relative;
+  width:100%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.oa:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/gateway/ownership/over/gate_ownership_over_01_0.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.ob{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.ob:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/gateway/ownership/s/gate_ownership_s1_02.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.oc{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.oc:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/gateway/ownership/s/gate_ownership_s1_03.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.od{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.od:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/gateway/ownership/s/gate_ownership_s3_02.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.oe{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.oe:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/gateway/ownership/s/gate_ownership_s3_03.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.mua{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.mua:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/museum/2024/01_31_refresh/museum_s_01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.mub{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.mub:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/museum/2023/01_23/s/museo_23_s1_02.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.muc{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.muc:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/museum/2023/01_23/s/museo_23_s1_03.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.mud{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.mud:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/museum/2023/01_23/s/museo_23_s1_04.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.mue{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.mue:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/museum/2023/01_23/s/museo_23_s2_01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.muf{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.muf:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/museum/2023/01_23/s/museo_23_s2_02.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.mug{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.mug:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/museum/2023/01_23/s/museo_23_s2_03.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.muh{
+  display:block;
+  position:relative;
+  width:45%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.muh:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/museum/2023/01_23/s/museo_23_s2_04.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+
+.sta{
+  display:block;
+  position:relative;
+  width:100%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.sta:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/store/2024/11_14/store_over_01.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
+.stb{
+  display:block;
+  position:relative;
+  width:55%;
+  
+  transform-origin:0 100%;
+  transform:skewX(-30deg) translatez(1px);
+  overflow:hidden;
+}
+.stb:before{
+  content:'';
+  position:absolute;
+  width:146%; height:100%;
+  background-image:url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/store/2024/11_14/store_over_02.jpg');
+  background-size:cover;
+  background-position:center;
+  transform-origin:inherit;
+  transform:skewX(30deg);
+}
